@@ -48,6 +48,7 @@ public class Program {
 			department.addEmployee(employee);
 		}
 		showDepartment(department);
+		sc.close();
 	}
 
 	public static void showDepartment(Department department) {
